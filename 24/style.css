@@ -1,0 +1,38 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+th {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.pagination button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	margin: 0 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.pagination button:hover {
+	background-color: #0056b3;
+}
+
+/* Стили для активной страницы */
+.pagination .active {
+	background-color: #0056b3;
+}
